@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <title>Indice de Practicas</title>
-
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        
-        body{
-            background-color: #f8f8f8;
-        }
-
-        .titulo{
-            text-align: center;
-        }
-
-        .indice{
-            font-size: 18px;
-        }
-    </style>
+    <title>Bootstrap</title>
 </head>
 <body>
-    <h1 class="titulo">Practicas</h1>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8ab2b4;">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    
+    <br>
 
-    <div class="indice">
-        <a href="https://armandosandovale.github.io/practica1/">Practica 1: Presentación</a> <br>
-        <a href="https://armandosandovale.github.io/practica2/index.html">Practica 2: Hipervínculos en HTML</a> <br>
-        <a href="https://armandosandovale.github.io/practica3/">Practica 3: Formulario en HTML</a> <br>
-        <a href="https://armandosandovale.github.io/practica4/css/">Practica Bootstrap - Navbar</a>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1 class="display-2">Armando Sandoval Espinoza</h1>
+          <p class="lead text-center">4AV - Programación<br> Cetis107</p>
+          <hr class="my-3">
+          <p>Para aprender más de Bootstrap, visita su pagina oficial</p>
+          <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/" target="_BLANK" role="button">Presiona Aqui! para ir a Bootstrap</a>
+        </div>
+      </div> 
     </div>
 
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <footer class="card text-center ">
+      <h2>Practica Bootstrap - Parcial #1 - &copy; CETIS107 - Programacion</h2>
+      <h2>Redes Sociales</h2>
+      <a href="https://www.youtube.com/" target="_BLANK">Youtube</a>
+      <a href="https://www.facebook.com/" target="_BLANK">Facebook</a>
+      <a href="https://www.instagram.com/?hl=es-la" target="_BLANK">Instagram</a>
+    </footer>
+                                                                                                   
+  <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
